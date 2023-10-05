@@ -7,4 +7,4 @@ Detail Information: This website is developed using HTML,CSS, JS, Figma with 5 p
 had been created : Home, Clothes(Store), About us, Location, and Subscription Page, with
 not fully responsive website and less interactive in Figma.
 
-Role : UI/UX Designer, Frontend
+Role : UI/UX Designer, Frontend Developer
