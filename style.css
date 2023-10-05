@@ -1,0 +1,606 @@
+.header{
+    width: 100%;
+    display: block;
+    background-color: #4D4949;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    position: relative;
+}
+.header_logo{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: #4D4949;
+}
+.header_logo a{
+    display: table-cell;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px; 
+    vertical-align: middle;
+    color: white;
+    color: black;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.search {
+    margin-right: 10px;
+    display: table-cell;
+    height: 100%;
+    width: 10vw;
+    float: left;
+    vertical-align: middle;
+}
+.search input[type=text]{
+    display: table-cell;
+    height: 40%;
+    width: 40vw;
+    margin-top: 25px;
+    /* border: none; */
+}
+/* Home  */
+.pictureframe{
+    height: 100%;
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.logoborder{
+    background-color: #D6D5D5;
+    height: 150px;
+    width: 150px;
+    display: block;
+    padding: 20px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 30px;
+}
+.logopict{
+    width: 150px;
+    height: 150px;
+}
+
+.hometext{
+    float: left;
+    margin-top: 200px;
+    margin-left: -200px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+
+.icons{
+    display: flex;
+    float: right;
+    width: 35%;
+    height: 100%;
+    gap: 5%;
+}
+.icon-bar {
+    display: table-cell;
+    float: right;
+    height: 100%;
+    margin-right: 5px;
+}
+.icon-bar a
+{
+    float: left;
+    text-align: center; 
+    width: 10%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 60px; 
+}
+  
+.account_image
+{
+    display: table-cell;
+    height: 100%;
+    float: right;
+    
+}
+.account_image img
+{
+    margin-top: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+.background{
+    display: block;
+    background-color:#7B7979;
+    height:60vh;
+    width: 100%;
+}
+.footer{
+    display: block;
+    position: relative;
+    bottom: 0px;
+    height: 25vh;
+    width: 100%;
+    background-color: #CFCFCF;
+    
+    
+}
+.footer_content{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5%;
+    width: 80%;
+    
+}
+.footer_content a{
+    text-decoration: none;
+    color: black;
+}
+.Icon {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: block;
+    position: absolute;
+   
+}
+.Icon1 {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: block;
+    position: absolute;
+}
+.Icon2 {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 95px;
+    display: block;
+    position: absolute;
+}
+.subsicon{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 75px;
+    display: block;
+    position: absolute;
+}
+
+.subsicon1{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 100px;
+    display: block;
+    position: absolute;
+}
+
+/*Subscription*/
+::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+.subs_content
+{
+    display: block;
+    width: 65%;
+    height: 70vh;
+    margin: auto;
+}
+.subs_content input
+{
+    color: black;
+    background-color: #C4C4C4;
+    
+}
+.subs_left_content
+{
+    float: left;
+    display: block;
+    width: 50%;
+}
+.subs_right_content
+{
+    float: right;
+    display: block;
+    width: 40%;
+}
+.subs_right_content p
+{
+    color: red;
+}
+.subs_right_content input[type=button]
+{
+    padding: 10px 30px;
+}
+.subs_left_content img
+{
+    width: 40px;
+    height: 30px;
+}
+.paymenticon{
+    float: left;
+    margin-left: 340px;
+    margin-top: -25px;
+}
+
+/*About Us*/
+.aboutus{
+    display: block;
+    background-color: grey;
+    height : 60vh;
+}
+.aboutus img{
+    height : 200px;
+    width : 200px;
+}
+.aboutus_text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+.aboutus_text h2,h3{
+    color: rgb(5, 5, 5);
+}
+.history{
+    display: block;
+    height: 200vh;
+}
+.history_title{
+    display:block;
+    height: 50px;
+    width: 50%;
+    margin-left: 40%;
+}
+.history img{
+    width : 500px;
+    height : 280px;
+}
+.history_left{
+    margin-top: 5vh;
+    height : 95%;
+    float : left;
+    display: block;
+    width: 50%;
+}
+.history_left_content{
+    width:70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.history_right{
+    margin-top: 5vh;
+    height : 95%;
+    float : right;
+    display: block;
+    width: 50%;
+}
+.history_right_content{
+    width:70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/* Location */
+.locations {
+    float: left;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.locations p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+}
+
+.Country{
+ float: left;
+ margin-top: 100px;
+ font-size: 30px;
+ color: white;
+}
+
+#Verticle-line{
+    width: 1px;
+    float: left;
+    height: 60%;
+    background-color: white;
+    margin: 0; 
+    margin-left: 2%;
+    margin-top: 130px;
+}
+
+.IndoCount{
+    float: left;
+ margin-top: 135px;
+ font-size: 25px;
+ color: white;
+ margin-left: 20px;
+}
+.JapanCount{
+    float: left;
+ margin-top: 199px;
+ font-size: 25px;
+ color: white;
+ margin-left: -510px;
+ 
+}
+
+.USACount{
+    float: left;
+   margin-top: 260px;
+   font-size: 25px;
+   color: white;
+    margin-left: -510px;
+}
+.GermanCount{
+    float: left;
+    margin-top: 328px;
+    font-size: 25px;
+    color: white;
+     margin-left: -510px;
+}
+
+
+.clothes_content{
+    height: 300vh;
+    width: 100%;
+    background-color: #EEEFF1;
+}
+
+.discount_content{
+    width: 100%;
+    max-height: 600px;
+}
+
+.top{
+    width: 100%;
+    height: 33vh;
+}
+.bottom{
+    width: 100%;
+    height: 36vh;
+}
+
+.Tops {
+    text-align: left;
+    font-size: 50px;
+    margin-left: 70px;
+    color: black;
+}
+.logoshop1{
+    background-color: #D6D5D5;
+    height: 200px;
+    width: 250px;
+    display: block;
+    padding: 20px;
+    float: left;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.shoppict1{
+    width: 140px;
+    height: 190px;
+}
+
+.iconshop{
+    float: right;
+    margin-top: -20px;
+    margin-right: 10px;
+    width:100px;
+    height: 100px;
+}
+
+.info{
+    display: block;
+    width: 40%;
+    float: right;
+    color: black;
+}
+
+@media screen and (max-width: 1453px) {
+    .background{
+        height:800px;
+    }
+    .footer{
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        height: 25vh;
+        width: 100%;
+    }
+    .footer_content{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 5%;
+        width: 80%;
+        
+    }
+    .footer_content a{
+        text-decoration: none;
+        color: black;
+    }
+    .Icon {
+        float: right;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        display: block;
+        position: absolute;
+       
+    }
+    .Icon1 {
+        float: right;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 50px;
+        display: block;
+        position: absolute;
+    }
+    .Icon2 {
+        float: right;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 95px;
+        display: block;
+        position: absolute;
+    }
+    .subsicon{
+        float: right;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 75px;
+        display: block;
+        position: absolute;
+    }
+    
+    .subsicon1{
+        float: right;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-right: 100px;
+        display: block;
+        position: absolute;
+    }
+    
+}
+
+@media  screen and (max-width: 1050px) {
+    .logoborder{
+        background-color: #D6D5D5;
+        height: 150px;
+        width: 150px;
+        display: block;
+        padding: 20px;
+        float: left;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and (max-width:1085px){
+    .top{
+        width: 100%;
+        height: 40vh;
+    }
+    .bottom{
+        width: 100%;
+        height: 40vh;
+    }
+    .aboutus{
+        height : 75vh;
+    }
+    .history{
+        display: block;
+        height: 220vh;
+    }
+} 
+
+@media screen and (max-width: 1300px ){
+    .search {
+        margin-right: 100px;
+        display: table-cell;
+        height: 100%;
+        width: 10vw;
+        float: left;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 1010px ){
+    
+    .subs_content
+    {   
+        width: 65%;
+        height: 800px;
+    }
+    .paymenticon{
+        float: left;
+        margin-left: 190px;
+        margin-top: -25px;
+    }
+}
+    
+@media screen and (max-width: 1300px) {
+    #Verticle-line{
+        width: 1px;
+        float: left;
+        height: 30%;
+        background-color: white;
+        margin: 0; 
+        margin-left: 2%;
+        margin-top: 130px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .top{
+        width: 100%;
+        height: 100vh;
+    }
+    .bottom{
+        width: 100%;
+        height: 100vh;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .top{
+        width: 100%;
+        height: 130vh;
+    }
+    .bottom{
+        width: 100%;
+        height: 130vh;
+    }
+}
+@media screen and (max-width: 900px) {
+    .history img{
+        width : 400px;
+        height : 200px;
+    }
+    .top{
+        width: 100%;
+        height: 180vh;
+    }
+    .bottom{
+        width: 100%;
+        height: 180vh;
+    }
+    
+}
